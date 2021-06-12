@@ -5,5 +5,9 @@ public class Main{
             String namaBelakang = "Real";
 
             System.out.print(namaDepan + namaTengah + namaBelakang);
+
+            char[] uniskaChar = {'U','N','I','S','K','A'};
+            String uniskastring = new String(uniskaChar);
+            System.out.println(uniskastring);
         }
 }
